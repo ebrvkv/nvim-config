@@ -44,6 +44,10 @@ return {
       },
 
       n = {
+        -- ["<F7>"] = { "ToggleTerm direction=float<CR>",
+        ["<F7>"] = { ":ToggleTerm direction=float<cr>",
+          desc = "Toggle floating terminal",
+        },
         -- second key is the lefthand side of the map
 
         -- navigate buffer tabs with `H` and `L`
@@ -63,6 +67,7 @@ return {
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
         ["<Leader>b"] = { desc = "Buffers" },
+        ["<Leader>e"] = { ":Neotree toggle dir=.<cr>", desc = "Toggle neotree window" },  -- change description but the same command
         -- quick save
         -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
       },

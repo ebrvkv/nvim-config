@@ -2,7 +2,7 @@ return {
   "nvim-treesitter/nvim-treesitter",
   opts = {
     ensure_installed = {
-      "terraform", "lua", "go", "c", "bash", "css",
+      "terraform", "lua", "go", "c", "bash", "css", "starlark",
       "hcl", "json", "sql", "gomod", "html", "jq", "vue", "javascript",
     },
     auto_install = true,
