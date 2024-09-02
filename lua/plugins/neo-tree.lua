@@ -3,7 +3,7 @@ return {
   enabled = true,
   opts = {
     reveal_force_cwd = true,
-    auto_clean_after_session_restore = false,
+    auto_clean_after_session_restore = true,
     window = {
       width = 40,
     },
