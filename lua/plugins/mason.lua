@@ -4,7 +4,7 @@ return {
     opts = {
       ensure_installed = {
         "dockerls", "gopls", "yamlls", "rust_analyzer",
-        "sqlls", "tsserver", "jsonls", "terraformls",
+        "sqlls", "ts_ls", "jsonls", "terraformls",
         "ansiblels", "angularls", "lua_ls", "vimls",
         "bufls", "cssls", "volar", "starlark_rust"
       },
