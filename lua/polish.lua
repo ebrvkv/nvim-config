@@ -9,10 +9,3 @@ vim.filetype.add {
     [".*.tfvars"] = "hcl",
   }
 }
-
-vim.api.nvim_create_autocmd("DirChanged", {
-  desc = "Run commands in DirChanged event",
-  callback = function()
-	  require('dap.ext.vscode').load_launchjs(vim.fn.getcwd()..'/launch.json', { delve = { 'delve', 'go' } })
-  end,
-})
