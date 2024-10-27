@@ -9,3 +9,10 @@ vim.filetype.add {
     [".*.tfvars"] = "hcl",
   }
 }
+
+require("resession").add_hook(
+  "post_load",
+  function()
+    require('dap.ext.vscode').load_launchjs(vim.fn.getcwd()..'/launch.json', { delve = { 'delve', 'go' } })
+  end
+)

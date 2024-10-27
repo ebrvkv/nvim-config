@@ -2,21 +2,7 @@ return {
   "AstroNvim/astrocore",
   ---@type AstroCoreOpts
   opts = {
-    autocmds = {
-      -- first key is the augroup name
-      dapgroup = {
-        -- the value is a list of autocommands to create
-        {
-          -- event is added here as a string or a list-like table of events
-          event = "DirChanged",
-          -- the rest of the autocmd options (:h nvim_create_autocmd)
-          desc = "Read launch.json on DirChanged",
-          callback = function()
-	          require('dap.ext.vscode').load_launchjs(vim.fn.getcwd()..'/launch.json', { delve = { 'delve', 'go' } })
-          end,
-        },
-      },
-    },
+    autocmds = {},
     -- Configure core features of AstroNvim
     features = {
       large_buf = { size = 1024 * 500, lines = 10000 }, -- set global limits for large files for disabling features like treesitter
