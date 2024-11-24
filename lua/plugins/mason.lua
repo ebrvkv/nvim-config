@@ -6,7 +6,7 @@ return {
         "dockerls", "gopls", "yamlls", "rust_analyzer",
         "sqlls", "ts_ls", "jsonls", "terraformls",
         "ansiblels", "angularls", "lua_ls", "vimls",
-        "bufls", "cssls", "volar", "bzl", "nil_ls"
+        "cssls", "volar", "bzl", "nil_ls"
       },
     },
   },
