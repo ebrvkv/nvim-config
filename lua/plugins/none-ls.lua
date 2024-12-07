@@ -11,6 +11,7 @@ return {
     config.debug = true
     config.sources = {
       null_ls.builtins.formatting.goimports,
+      null_ls.builtins.formatting.alejandra
       -- null_ls.builtins.diagnostics.golangci_lint
       -- Set a formatter
       -- null_ls.builtins.formatting.stylua,
