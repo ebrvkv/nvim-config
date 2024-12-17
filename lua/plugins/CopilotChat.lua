@@ -4,7 +4,7 @@
 return {
   {
     "CopilotC-Nvim/CopilotChat.nvim", -- Plugin repository
-    branch = "canary", -- Branch to use
+    branch = "main", -- Branch to use
     dependencies = {
       { "github/copilot.vim" }, -- Dependency: GitHub Copilot Vim plugin
       { "nvim-lua/plenary.nvim" }, -- Dependency: Plenary.nvim for curl and log wrapper
