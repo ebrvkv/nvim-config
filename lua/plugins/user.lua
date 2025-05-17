@@ -38,7 +38,7 @@ return {
   { "netrwPlugin", enabled = false },
   { "tarPlugin", enabled = false },
   { "matchparen", enabled = false },
-  { "nvimtools/none-ls.nvim", enabled = false },
+  { "nvimtools/none-ls.nvim", enabled = true },
 
   -- You can also easily customize additional setup of plugins that is outside of the plugin's setup call
   {
