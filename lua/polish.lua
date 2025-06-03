@@ -1,4 +1,4 @@
-require('dap-go').setup()
+-- require('dap-go').setup()
 
 vim.filetype.add {
   pattern = {
