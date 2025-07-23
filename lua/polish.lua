@@ -7,7 +7,7 @@ vim.filetype.add {
     [".*/playbooks/.*.yml"] = "yaml.ansible",
     [".*/playbooks/.*.yaml"] = "yaml.ansible",
     [".*.tfvars"] = "hcl",
-    ["*.xml.j2"] = "xml",
+    [".*.xml.j2"] = "xml",
   }
 }
 
